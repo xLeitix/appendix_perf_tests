@@ -5,12 +5,33 @@ Please access the data by cloning this repository:
 
 `git clone https://github.com/xLeitix/appendix_perf_tests.git`
 
+The branch `master` contains only the actual appendix data. If you want access to the (HTML) content that you are currently looking at, please check out the branch `gh-pages`.
+
 ## Data Gathering and Analysis Scripts
 All scripts used to collect the data and produce the metrics discussed in the paper (plus some that are not in the paper) are available in the directory `scripts`.
 Data retrieval is done via Python 2.6 and using the BeautifulSoup library. Analysis is done in a combination of Python and R.
 
 ## Project Data Set and Coding Summary
 The file `coding\project summary and statistics.xslx` contains all projects we considered, basic stats (number of stars, committers, ...), links to GitHub, and brief project summaries. Further, the file summarizes which observations we have made for each project, as well as a list of identified performance test files per project.
+
+## Citing This Data Set
+If you use the data set in your research, please cite our [ICPE paper](https://icpe2017.spec.org):
+
+>@inproceedings{leitner:17,
+
+>  url = { https://peerj.com/submissions/13705/materials/all.zip },
+
+>  pages = { nn },
+
+>  year = { 2017 },
+
+> booktitle = { Proceedings of the 7th ACM/SPEC International Conference on Performance Engineering (ICPE) },
+
+>  title = { An Exploratory Study of the State of Practice of Performance Testing in Java-Based Open Source Projects },
+
+>  author = { Philipp Leitner and Cor-Paul Bezemer },
+
+>}
 
 ## Full Dataset
 While all this data is also available in the Excel file, for convenience we also provide a table of all projects in our data set below. False positives are already excluded in this list (but they are contained in the Excel file).
