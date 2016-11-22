@@ -17,21 +17,16 @@ The file `coding\project summary and statistics.xslx` contains all projects we c
 ## Citing This Data Set
 If you use the data set in your research, please cite our [ICPE paper](https://icpe2017.spec.org):
 
->@inproceedings{leitner:17,
-
->  url = { https://peerj.com/submissions/13705/materials/all.zip },
-
->  pages = { nn },
-
->  year = { 2017 },
-
-> booktitle = { Proceedings of the 7th ACM/SPEC International Conference on Performance Engineering (ICPE) },
-
->  title = { An Exploratory Study of the State of Practice of Performance Testing in Java-Based Open Source Projects },
-
->  author = { Philipp Leitner and Cor-Paul Bezemer },
-
->}
+<pre>
+@inproceedings{leitner:17,
+ url = { https://peerj.com/submissions/13705/materials/all.zip },
+ pages = { nn },
+ year = { 2017 },
+ booktitle = { Proceedings of the 7th ACM/SPEC International Conference on Performance Engineering (ICPE) },
+ title = { An Exploratory Study of the State of Practice of Performance Testing in Java-Based Open Source Projects },
+ author = { Philipp Leitner and Cor-Paul Bezemer },
+}
+</pre>
 
 ## Full Dataset
 While all this data is also available in the Excel file, for convenience we also provide a table of all projects in our data set below. False positives are already excluded in this list (but they are contained in the Excel file).
